@@ -1,0 +1,31 @@
+:root {
+  --color-bg: #243763;
+  --color-text: #ff6e31;
+  --color-text-alt: #ff7033;
+  --color-accent-1: #ffebb7;
+  --color-accent-2: #ad8e70;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  place-content: center;
+  width: clamp(2ch, 600px, 90vw);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: var(--color-accent-1);
+}
